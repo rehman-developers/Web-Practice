@@ -1,0 +1,47 @@
+
+
+h2{
+    color: green;
+}
+
+
+.abc{
+    background-color: orange;
+    color: white;
+    width: 350px;
+    display: inline-block;
+    margin: 100px;
+    padding: 22px;
+    border: 6px solid green;
+    /* border: 6px dotted green; */
+    /* border: 6px dashed green; */
+    border-radius: 22px;
+    /* border-radius: 50%; */
+    outline: 6px solid red;
+    outline-offset: 14px;
+}
+
+.abc p{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.first{
+    width: 400px;
+}
+
+.xyz{
+    background-color: green;
+    color: white;
+    width: 350px;
+    display: inline-block;
+}
+
+#hp{
+    background-color: rgb(160, 8, 226);
+    color: white;
+    width: 350px;
+    display: inline-block;
+}

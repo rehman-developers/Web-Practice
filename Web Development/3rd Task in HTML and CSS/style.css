@@ -1,0 +1,727 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    height: 9vh;
+    /* color: white; */
+    display: flex;
+}
+
+.nav img {
+    /* color: white; */
+    width: 20vh;
+    height: 5vh;
+    margin: 2vh 2vh;
+}
+
+.nav ul {
+    display: flex;
+    margin-left: 55vh;
+}
+
+.nav ul li {
+    /* display: flex; */
+    /* display: inline-block; */
+    list-style: none;
+    padding: 3vh 5vh;
+
+
+}
+
+.nav ul li button {
+    border: 1px solid rgb(10, 10, 10);
+    width: 14vh;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: -1vh;
+    background-color: white;
+}
+
+.text {
+    height: 40vh;
+    text-align: center;
+    background-color: lightgray;
+    color: rgb(33, 33, 44);
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.text button {
+    width: 25vh;
+    height: 6vh;
+    border-radius: 3px;
+    color: white;
+    background-color: rgba(16, 198, 223, 0.87);
+    border: none;
+}
+
+#project {
+    height: 50vh;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+#project .box {
+
+    margin-left: 27vh;
+    margin-top: 35px;
+    padding: 20px;
+    height: 40vh;
+    width: 48vh;
+    /* border: 1px solid black; */
+    background-color: rgb(250, 250, 250);
+}
+
+#project .box p {
+    color: rgb(26, 26, 179);
+}
+
+#project .box .fa-chart-column {
+    font-size: 48px;
+    color: green;
+
+}
+
+#project .list {
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 20px;
+    height: 40vh;
+    width: 48vh;
+    background-color: rgb(250, 250, 250);
+}
+
+#project .list p {
+    color: rgb(26, 26, 179);
+}
+
+#project .list .fa-chart-column {
+    font-size: 48px;
+    color: rgb(26, 26, 179);
+}
+
+#project .square {
+    margin-top: 35px;
+    margin-left: 30px;
+    padding: 20px;
+    height: 40vh;
+    width: 48vh;
+    background-color: rgb(250, 250, 250);
+}
+
+#project .square p {
+    color: rgb(26, 26, 179);
+}
+
+#project .square .fa-chart-column {
+    font-size: 48px;
+    color: rgb(26, 26, 179);
+
+}
+
+.words {
+    height: 25vh;
+    background-color: lightgray;
+
+}
+
+.words h1 {
+    padding-left: 30vh;
+    font-size: 40px;
+    /* padding-right: 60px; */
+}
+
+.words h1 span {
+    color: rgb(180, 61, 170);
+}
+
+#three .one p {
+    font-size: 18px;
+    color: rgb(26, 26, 179);
+}
+
+#three .two p {
+    font-size: 18px;
+    color: rgb(26, 26, 179);
+}
+
+#three i {
+    color: rgb(180, 61, 170);
+    font-size: 30px;
+}
+
+#three {
+    height: 45vh;
+    background-color: lightgray;
+    display: flex;
+}
+
+#three .one {
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+.noise {
+    display: flex;
+    height: 100vh;
+    /* background-color: rgb(151, 25, 25); */
+}
+
+.noise span {
+    margin-right: 16.5vh;
+    margin-top: 20vh;
+    margin-left: 12px;
+}
+
+.noise img {
+    margin-top: 8vh;
+    height: 85vh;
+    width: 120vh;
+}
+
+.contract {
+    display: flex;
+    height: 92.5vh;
+    /* background-color: black; */
+}
+
+.contract span {
+    margin-right: 22.5vh;
+    margin-top: 20vh;
+    margin-left: 12px;
+}
+
+.contract img {
+
+    height: 85vh;
+    width: 120vh;
+    float: right;
+}
+
+.date {
+    /* background-color: black; */
+    display: flex;
+    height: 85vh;
+}
+
+.date span {
+    margin-right: 16vh;
+    margin-top: 20vh;
+    margin-left: 12px;
+}
+
+.date img {
+
+    height: 85vh;
+    width: 120vh;
+    float: right;
+}
+
+section {
+    height: 86vh;
+    /* background-color: blueviolet; */
+}
+
+#design {
+    /* text-decoration: none; */
+    margin-left: 10vh;
+    margin-top: 6vh;
+    text-align: center;
+    margin-right: 10vh;
+    height: 80vh;
+    background-color: lightgray;
+
+}
+
+#design a {
+    text-decoration: none;
+    color: blue;
+}
+
+.learn {
+    /* width: 792px; */
+    height: 300px;
+    /* margin-top: 6vh; */
+    display: flex;
+}
+
+.a {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+}
+
+.a .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.b {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+}
+
+.b .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.c {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+}
+
+.c .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.more {
+    display: flex;
+    text-decoration: none;
+}
+
+.d {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+.d .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.e {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+}
+
+.e .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.f {
+    width: 900px;
+    height: 280px;
+    padding: 25px;
+}
+
+.f .fa-chart-column {
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.x {
+    height: 7vh;
+    text-align: center;
+    background-color: lightgray;
+    border-bottom: 2px solid gray;
+}
+
+.y {
+    height: 10vh;
+    background-color: lightgray;
+    display: flex;
+    font-size: 18px;
+    border-bottom: 4px solid gray;
+    padding-left: 70vh;
+}
+
+.y p {
+    padding-right: 20vh;
+    margin-top: 20px;
+}
+
+.z {
+    font-size: 18px;
+    height: 40vh;
+    border-bottom: 1px solid gray;
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+
+.client {
+    display: flex;
+    text-align: center;
+}
+
+.client .one {
+    width: 32vh;
+    height: 4vh;
+    background-color: skyblue;
+    margin-left: 40vh;
+}
+
+.client .two {
+    width: 32vh;
+    height: 4vh;
+    background-color: pink;
+    margin-left: 13vh;
+}
+
+.client .three {
+    width: 32vh;
+    height: 4vh;
+    background-color: skyblue;
+    margin-left: 13vh;
+}
+
+.track {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.track .one {
+    width: 32vh;
+    height: 4vh;
+    background-color: skyblue;
+    margin-left: 38vh;
+}
+
+.track .two {
+    width: 32vh;
+    height: 4vh;
+    background-color: pink;
+    margin-left: 13vh;
+}
+
+.track .three {
+    width: 32vh;
+    height: 4vh;
+    background-color: pink;
+    margin-left: 13vh;
+}
+
+.hours {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.hours .one {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 42.5vh;
+    background-color: skyblue;
+}
+
+.hours .two {
+    width: 32vh;
+    height: 4vh;
+    background-color: pink;
+    margin-left: 13vh;
+}
+
+.hours .three {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: skyblue;
+}
+
+.proofing {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.proofing .one {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 33.5vh;
+    background-color: skyblue;
+}
+
+.proofing .two {
+    width: 32vh;
+    height: 4vh;
+    background-color: pink;
+    margin-left: 13vh;
+}
+
+.proofing .three {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: skyblue;
+}
+
+.project {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.project .one {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 41vh;
+    background-color: pink;
+}
+
+.project .two {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: skyblue;
+}
+
+.project .three {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: pink;
+}
+
+.tailored {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+}
+
+.tailored p {
+    background-color: lightblue;
+    width: 33vh;
+    height: 6vh;
+    padding-top: 7px;
+}
+
+.tailored .one {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 28vh;
+    background-color: pink;
+}
+
+.tailored .two {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: pink;
+}
+
+.tailored .three {
+    width: 32vh;
+    height: 4vh;
+    margin-left: 13vh;
+    background-color: pink;
+}
+
+.pic {
+    height: 60vh;
+    display: flex;
+}
+
+.pic img {
+    height: 45vh;
+    margin-top: 6vh;
+    margin-left: 8vh;
+}
+
+.demo {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.demo button {
+    height: 5vh;
+    width: 25vh;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.sky {
+    display: flex;
+    background-color: rgb(167, 218, 238);
+    height: 60vh;
+}
+
+.flex {
+    height: 50vh;
+    width: 90vh;
+    margin-right: 52vh;
+    /* padding-right: 35vh; */
+}
+
+.tool {
+    padding-top: 7vh;
+    padding-left: 8vh;
+}
+
+.tool p {
+    padding-top: 2vh;
+}
+
+.col {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.sky video {
+    padding-top: 9vh;
+    height: 40vh;
+    width: 60vh;
+}
+
+.email {
+    height: 42vh; 
+}
+
+.place {
+    margin-top: 6vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: center;
+    border-radius: 20px;
+    height: 36vh;
+    color: white;
+    background-color: rgb(126, 3, 97);
+}
+
+.place h1 {
+    padding-top: 8vh;
+}
+
+.place input {
+    width: 52vh;
+    height: 6vh;
+}
+
+.place button {
+    color: white;
+    background-color: rgb(126, 3, 97);
+    width: 12vh;
+    height: 5vh;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.photo {
+    text-align: center;
+    height: 25vh;
+    /* background-color: black; */
+}
+
+.photo img {
+    margin-top: 10vh;
+    width: 27vh;
+    height: 8vh;
+}
+
+.logo {
+    padding-left: 35vh;
+    display: flex;
+    height: 16vh;
+}
+
+.logo li {
+    list-style: none;
+}
+
+.logo i {
+    color: blue;
+}
+
+.logo span {
+    color: blue;
+}
+
+.contact {
+    padding-right: 5vh;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.contact h2 {
+    color: blue;
+    text-align: center;
+}
+
+.support {
+    padding-left: 7vh;
+    border-right: 2px solid gray;
+}
+
+.support h2 {
+    color: blue;
+    text-align: center;
+}
+
+.support li {
+    padding-right: 22vh;
+    list-style: none;
+}
+
+.product {
+    padding-left: 7vh;
+    border-right: 2px solid gray;
+}
+
+.product h2 {
+    color: blue;
+    text-align: center;
+}
+
+.product li {
+    padding-right: 24vh;
+    list-style: none;
+}
+
+.free {
+    height: 6vh;
+}
+
+.us {
+    height: 7vh;
+    background-color: lightgray;
+    /* text-align: center; */
+}
+
+.us ul {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 2vh;
+    /* padding-right: 2vh; */
+    /* border-right: 2px solid black; */
+}
+
+.us ul li {
+    padding-right: 6px;
+    border-right: 2px solid black;
+}
+
+.copy {
+    text-align: center;
+    height: 17vh;
+}
+
+.copy p {
+    padding-top: 7vh;
+    color: rgb(177, 69, 69);
+}
+
+.copy span {
+    color: blue;
+}

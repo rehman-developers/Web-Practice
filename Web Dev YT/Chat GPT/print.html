@@ -1,0 +1,47 @@
+<!-- print_invoice.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Print Invoice</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <form id="printForm">
+        <label for="item_code">Item Code:</label>
+        <input type="text" id="item_code" name="item_code" required>
+        <button type="button" id="fetchInvoice">Fetch Invoice</button>
+    </form>
+
+    <div id="invoiceDetails" style="display: none;">
+        <h2>Invoice</h2>
+        <p id="invoiceContent"></p>
+        <button onclick="window.print()">Print</button>
+    </div>
+
+    <script>
+        $('#fetchInvoice').click(function() {
+            var itemCode = $('#item_code').val();
+            $.ajax({
+                url: 'fetch_invoice.php',
+                type: 'GET',
+                data: {item_code: itemCode},
+                success: function(data) {
+                    var invoice = JSON.parse(data);
+                    var content = `
+                        <strong>Customer Name:</strong> ${invoice.customer_name}<br>
+                        <strong>Sold Date:</strong> ${invoice.sold_date}<br>
+                        <strong>Item Code:</strong> ${invoice.item_code}<br>
+                        <strong>Item Name:</strong> ${invoice.item_name}<br>
+                        <strong>Unit Price:</strong> ${invoice.unit_price}<br>
+                        <strong>Selling Price:</strong> ${invoice.selling_price}
+                    `;
+                    $('#invoiceContent').html(content);
+                    $('#invoiceDetails').show();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

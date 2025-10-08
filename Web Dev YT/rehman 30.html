@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseduo selector |www Before and after pseduo selector lecture.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            /* background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover; */
+        }
+        header::before{
+            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           z-index: -1;
+           top: 0;
+           left: 0;
+           opacity: 0.3;
+            content:"";
+        }
+
+        .navigation {
+            font-weight: bold;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            /* margin: 5px 10px; */
+            padding: 30px 40px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        section {
+            /* border: 2px solid white; */
+            height: 300px;
+            justify-content: center;
+            margin: 30px 70px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-style: italic;
+        }
+
+        h3 {
+            font-size: 3rem;
+            /* font-style: italic; */
+        }
+
+        /* section::before{
+            content: "This is Website.";
+        } */
+
+
+        /* section::after{
+            content: "This is Website.";
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">Menu</li>
+                <li class="item">Contact </li>
+                <li class="item">Services</li>
+                <!-- <button class="btn"><i class="fa fa-home"></i></button>
+                <button class="btn"><i class="fa fa-bars"></i></button>
+                <button class="btn"><i class="fa fa-trash"></i></button>
+                <button class="btn"><i class="fa fa-close"></i></button> -->
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>
+            Welcome to Coding World.
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est inventore magnam ipsum consequatur modi, hic
+            facilis possimus maiores fugit
+            veritatis voluptatibus natus! Voluptate, recusandae adipisci. Ipsum ipsa doloremque assumenda nobis.</p>
+    </section>
+    <hr>
+
+</body>
+
+</html>

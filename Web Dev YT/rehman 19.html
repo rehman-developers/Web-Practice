@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .navbar {
+            border: 3px solid rgb(3, 2, 2);
+            background-color: rgb(32, 13, 202);
+            border-radius: 45px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 20px 35px;
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+        }
+        .navbar input {
+            border: 3px solid black;
+            border-radius: 15px;
+            padding: 2px 20px;
+            width: 150px;
+        }
+        .navbar :hover{
+            color: rgb(224, 9, 9);
+        }
+        .search {
+            float: right;
+            color: aqua;
+            padding: 15px 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <!-- <li><a href="">Services</a></li> -->
+                <!-- <li><a href="">Contact Us</a></li> -->
+                <li><button class="btn"><i class="fa fa-home"></i></button></li>
+
+               <li> <button class="btn"><i class="fa fa-bars"></i></button></li>
+                <div class="search">
+                    <input type="text" name="Search" id="Search" placeholder="search">
+                    <!-- <input type="text" name="search" id="search" placeholder="Search this website"> -->
+
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

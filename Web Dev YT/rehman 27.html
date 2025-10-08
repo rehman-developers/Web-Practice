@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries |www.media queies lecture.com</title>
+    <style>
+        .box{
+            background-color: brown;
+            color: black;
+            font-size: 50px;
+            text-align: center;
+            display: none;
+        }
+        @media(max-width:300px)
+        {
+            #box1{
+                display: block;
+                background-color: darkviolet;
+            }
+        }
+        @media (min-width:300px) and (max-width:500px)
+        {
+            #box2{
+                display: block;
+                background-color: darkmagenta;
+            }
+        }
+        @media (min-width:500px) and (max-width:700px)
+        {
+            #box3{
+                display: block;
+                background-color: rgb(18, 3, 75);
+                color: white;
+            }
+        }
+        @media (min-width:700px) 
+        {
+            #box4{
+                display: block;
+                background-color: rgb(1, 61, 6);
+                color: white;
+            }
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">I am Phone</div>
+    <div class="box" id="box2">I am Tablet</div>
+    <div class="box" id="box3">I am Laptop</div>
+    <div class="box" id="box4">I am Computer</div>
+    <footer>
+        copyright &copy; www.media Queries lecture.com All right reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --a: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.home ul li {
+    width: 25px;
+    padding-top: 20px;
+    list-style: none;
+    gap: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.heading {
+    gap: 15px;
+    align-items: center;
+}
+
+.heading img {
+    width: 25px;
+}
+
+.library {
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer {
+    font-size: 11px;
+    position: absolute;
+    padding: 10px 0px;
+    bottom: 0;
+}
+
+.footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+.right {
+    width: 75vw;
+    background-color: #1f1f1f;
+    position: relative;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+
+.header>* {
+    padding: 20px;
+}
+
+.header img {
+    width: 15px;
+}
+.cards{
+    position: relative;
+}
+.card img {
+    border-radius: 50%;
+    width: 13vw;
+    height: 13vw;
+}
+
+.cards>* {
+    padding: 7px;
+}
+
+.cards :hover {
+    background-color: rgb(41, 41, 41);
+}
+.play img{
+    background-color: #1ed760;
+    position: absolute;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 50%;
+    padding: 10px;
+    right: 8px;
+    bottom: 55px;
+}
+.svg img{
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: no-drop;
+}
+.button >*{
+    margin: 0 12px;
+}
+.sign{
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: #1c1c1c;
+    color: grey;
+    cursor: pointer;
+}
+
+.log{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 14px 21px;
+}
+.playbar{
+    position: fixed;
+    bottom: 10px;
+    width: 72%;
+    align-items: center;
+    background-color: #1ed760;
+    padding: 11px;
+    color: black;
+    border-radius: 25px;
+}
+.abovebar{
+    justify-content: space-between;
+}
+.songbtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.songinfo, .songtime{
+    padding: 0 11px;
+}
+.songlist{
+    height: 300px;
+    overflow: auto;
+}
+.close{
+    display: none;
+}
+.menu{
+    display: none;
+    cursor: pointer;
+}
+.songlist ul{
+    padding: 10px 12px;
+    font-size: 11px;
+}
+.songlist ul li{
+    cursor: pointer;
+    margin: 5px 0px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    list-style: none;
+    align-items: center;
+}
+.seekbar {
+    height: 4px;
+    width: 96%;
+    background: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 2px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 13px;
+    background-color: black;
+    position: relative;
+    bottom: 3px;
+    left: 0%;
+    transition: left 0.5s;
+}
+.timevol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.volume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+.range input{
+    cursor: pointer;
+}
+
+@media (max-width:1100px) {
+    .left{
+        position: absolute;
+        left: -100%;
+        transition: all.3s;
+        z-index: 1;
+        width: 370px;
+        background-color: black;
+    }
+    
+    .left .close{
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+    .right{
+        width: 100vw;
+    }
+    .playbar{
+        width: 95%;
+    }
+    .menu{
+        display: block;
+    }
+    .svg{
+        display: none;
+    }
+     
+}
+@media (max-width:500px) {
+    .cardContainer{
+        justify-content: center;
+    }
+    .left{
+        width: 100vw;
+    }
+    .abovebar{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .timevol{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+}

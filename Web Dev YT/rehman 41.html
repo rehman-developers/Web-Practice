@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID + Media Queries</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section aside'
+                'footer footer footer footer';
+        }
+
+        .bdr {
+            border: 2px solid black;
+            padding: 10px 23px;
+            background-color: brown;
+        }
+
+        @media only screen and (max-width:300px) {
+            body {
+                background-color: blue;
+            }
+
+            .container {
+
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'section section section section'
+                    'aside aside aside aside'
+                    'footer footer footer footer';
+            }
+
+            aside {
+                display: none;
+            }
+
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        @media only screen and (min-width:300px)and (max-width:500px) {
+            body {
+                background-color: rgb(151, 118, 9);
+            }
+
+            .container {
+
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'section section section section'
+                    'aside aside aside aside'
+                    'footer footer footer footer';
+            }
+        }
+
+        @media only screen and (min-width:500px)and (max-width:800px) {
+            body {
+                background-color: rgb(143, 11, 121);
+            }
+
+            .container {
+
+                grid-template-areas:
+                    'navbar navbar navbar navbar'
+                    'section section section section'
+                    'aside aside aside aside'
+                    'footer footer footer footer';
+            }
+        }
+
+        @media only screen and (min-width:800px) {
+            body {
+                background-color: rgb(22, 180, 88);
+            }
+        }
+
+        nav {
+            grid-area: navbar;
+            text-align: center;
+            padding: 5px 20px;
+            /* margin: auto; */
+        }
+
+        section {
+            grid-area: section;
+        }
+
+        aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="bdr">
+            <span>Home</span>
+            <span>About</span>
+            <span>Contact</span>
+            <span>Services</span>
+        </nav>
+        <section class="bdr">
+            <h2>
+                Learn CSS In Urdu
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ullam libero ex distinctio quasi, dolore
+                amet ipsam a inventore, dicta error. Quasi atque dolorum nobis illo officiis labore explicabo
+                perspiciatis tenetur distinctio nulla temporibus nisi quae aliquid et, pariatur sunt minima sint
+                voluptate soluta possimus dolores vero fugit placeat consequatur? Dignissimos nemo perferendis quidem,
+                nisi iste dolor eaque, inventore aspernatur maxime eveniet at! Quisquam fugiat alias illo eius
+                doloremque facere quas, officiis, dicta officia minus necessitatibus non sunt velit perspiciatis totam
+                impedit perferendis fugit animi laboriosam modi ratione dolorum iste rem. Ullam omnis hic a dolorum
+                laudantium pariatur, dolorem eum perspiciatis minima, soluta, quasi assumenda nisi. Animi libero harum
+                minima! In tempore id voluptatum itaque doloribus quisquam distinctio ad ipsa autem dolorem repellendus
+                animi sed nisi aliquam quod ratione eius, deserunt consequuntur quidem? Et, est iusto voluptas vero
+                nihil magni deleniti voluptatibus temporibus quo molestias ad non fugit facilis optio. Iste,
+                perspiciatis? Illum itaque unde quis inventore natus eligendi repudiandae sunt eveniet rem. Totam sint
+                repellendus iste dolorum expedita beatae suscipit, iure velit deserunt. Soluta recusandae in nisi eius
+                dolor nihil accusamus obcaecati animi, fugit, deleniti quasi dignissimos saepe incidunt! Excepturi
+                similique sit commodi a vitae soluta, quis voluptatum numquam. Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Dolor ipsum provident neque quaerat mollitia quas aliquam dolore minus est quidem
+                autem nostrum nesciunt repellendus eius, a illo dicta, architecto rem alias voluptatem, minima
+                explicabo. Dignissimos natus quis labore, dolore magni, ex explicabo nostrum porro perferendis deleniti
+                aliquid similique perspiciatis tempore soluta earum necessitatibus odit dicta sapiente accusamus, aut
+                dolorem. Consequuntur laborum vitae atque, quae id eveniet dignissimos veritatis maiores consectetur
+                illo recusandae corrupti voluptas accusamus, consequatur sit vero, et facere voluptates labore amet sed
+                qui modi. Et quasi enim quidem atque consectetur nihil labore quo cumque nobis esse id rerum ipsum
+                pariatur, eius velit nostrum maxime, laborum repellat. Eligendi quis dignissimos natus sunt laborum
+                eaque blanditiis, beatae voluptatibus amet quae optio assumenda, nesciunt, aspernatur repellat deserunt.
+                Dolorem officiis, quisquam laborum nisi praesentium culpa illum dolore necessitatibus assumenda
+                deleniti. Reiciendis eligendi ipsum atque consectetur velit natus blanditiis culpa, molestiae debitis
+                deleniti facilis, tempora, commodi animi ipsa repudiandae in pariatur inventore ratione. Doloribus,
+                dolor incidunt vel temporibus illum culpa quidem iure explicabo atque veniam repellendus obcaecati rerum
+                officia vitae, sequi rem odit consectetur! Voluptate hic voluptatem odio, ab explicabo delectus.
+                Repellat laboriosam reprehenderit recusandae qui magni atque inventore aut. Perferendis, debitis vel.
+            </p>
+        </section>
+        <aside class="bdr">
+            <h1>
+                More About Us
+            </h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo sint facere dolores, magni ex ipsa
+                officia culpa obcaecati sequi voluptatibus tempore doloremque! Architecto consectetur, modi sapiente
+                debitis consequuntur quo, facilis necessitatibus maxime fugiat quis facere quas eaque labore reiciendis,
+                alias ratione eos accusamus non! Magni obcaecati sed modi odit voluptatum ex eius eos vel placeat vero
+                assumenda unde nisi eligendi non repudiandae cumque nihil ipsa adipisci earum, officia aspernatur
+                provident harum quisquam. Numquam, sunt. In ea laudantium, cum aliquid nihil ipsa velit dicta
+                repudiandae maiores sit dignissimos sapiente quo similique, porro vel impedit. Consequatur ut quidem
+                doloremque animi? Reiciendis at error, nisi voluptatem excepturi ut, possimus consequuntur nam beatae
+                nobis sequi, illum eum velit! Nam at, voluptatem qui ut tempore vitae sapiente ab autem quasi culpa
+                corrupti ipsam saepe, eos hic laborum tenetur! Exercitationem fuga asperiores, illum enim temporibus
+                explicabo quod amet. Non cumque modi ipsa veritatis consequuntur laboriosam voluptate dolor perspiciatis
+                ratione. Ducimus ab eum ut quas! Eaque quia, exercitationem dolor quos adipisci deserunt culpa aperiam
+                possimus neque commodi nihil molestiae eius eos vero sed similique tempora maiores necessitatibus
+                reprehenderit tempore atque suscipit ea quisquam. Corrupti quos perferendis ipsam amet itaque facere
+                nulla quasi? Pariatur deserunt perferendis explicabo nam quod voluptate consequuntur voluptatem eligendi
+                laudantium iusto sint.
+            </p>
+        </aside>
+    </div>
+    <footer class="bdr">
+        copyright &copy rehman html and css
+    </footer>
+</body>
+
+</html>

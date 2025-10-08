@@ -1,0 +1,49 @@
+sub {
+    color: red;
+}
+
+#daraz {
+    margin-top: 10px;
+    /* display: inline-block; */
+    display: flex;
+}
+
+#daraz .box {
+    border: 1px solid white;
+    /* margin: 12px; */
+    padding: 10px;
+    text-align: center;
+}
+
+#daraz .box img {
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+}
+
+#daraz .box figcaption {
+    font-size: 15px;
+}
+
+
+#row {
+    margin-top: 10px;
+    display: flex;
+}
+
+#row .pic {
+    border: 1px solid white;
+    /* margin: 12px; */
+    padding: 10px;
+    text-align: center;
+}
+
+#row .pic img {
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+}
+
+#daraz .pic figcaption {
+    font-size: 15px;
+}

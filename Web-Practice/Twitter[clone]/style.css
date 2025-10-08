@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.line{
+    border-bottom: 1px solid #424242;
+}
+.twitter {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-areas: "nav menuu search";
+    margin: auto;
+    width: 90vw;
+    /* position: relative; */
+}
+
+nav {
+    grid-area: nav;
+    justify-content: start;
+    padding-top: 10px;
+    position: fixed;
+}
+
+nav .logo img {
+    width: 25px;
+}
+
+#navbar {
+    margin-top: 3vw;
+}
+
+#navbar img {
+    width: 25px;
+    gap: 3vw;
+}
+ 
+#navbar .bar {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 1.5vw;
+    padding: 10px 0;
+}
+
+#navbar .btn {
+    justify-content: center;
+    background-color: #448EE4;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px 20px 0 0;
+}
+
+#x .user {
+    margin-top: 4vw;
+    display: flex;
+    gap: 3vh;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.user img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+section {
+    grid-area: search;
+    margin: 5px 25px;
+    position:sticky;
+} 
+.sear input {
+    background-color: #424242;
+    padding: 12px;
+    width: 25vw;
+    border: none;
+    border-radius: 25px;
+}
+section .premium{
+    border: 1px solid #424242;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 15px;
+}
+.premium p{
+    margin-bottom: 15px;
+}
+.premium .btn{
+    background-color: #448EE4;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.trends{
+    border: 1px solid #424242;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.paris{
+    background-image: url(/assets/eiffel-tower.jpg);
+    margin: 10px;
+    background-size: cover;
+    border-radius: 15px;
+    height: 7vw;
+    padding: 30px 15px;
+}
+.paris h4{
+    font-size: 20px;
+}
+.paris p{
+    font-size: 16px;
+}
+.foryou{
+    margin: 10px;
+}
+.tree{
+    margin: 20px 0;
+}
+.tree p{
+    color: #424242;
+}
+.footer{
+    color: #424242;
+    padding: 8px;
+}
+main {
+    grid-area: menuu;
+    border-left: 1px solid #424242;
+    border-right: 1px solid #424242;
+}
+
+main .cont {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.me span{
+    display: flex;
+    margin: 10px;
+    gap: 2vh;
+}
+.me img {
+    width: 45px;
+    border-radius: 50%;
+}
+.me p{
+    color: #424242;
+    font-size: 24px;
+}
+.me .img{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.me .img img{
+    width: 20px;
+    margin: 8px;
+}
+.me .img a{
+    justify-content: center;
+    background-color: #448EE4;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.posts{
+    margin: 15px 0;
+    text-align: center;
+    color:#448EE4;
+}
+.ux{
+    padding: 15px;
+}
+.ui{
+    color: white;
+    display: flex;
+    gap: 3vh;
+}
+.ui img{
+    width: 45px;
+    border-radius: 50%;   
+}
+.des{
+     color: #424242;
+     margin: 0px 40px;
+}
+.des img{
+    border-radius: 20px;
+    width: 78vh;
+}

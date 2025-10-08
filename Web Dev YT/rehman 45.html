@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Function in JavaScript</title>
+</head>
+
+<body>
+    <script>
+        var str = "This is a string  ";
+        console.log(str);
+        //First Occurence of substring
+        var position = str.indexOf('is');
+        console.log(position);
+
+        //Last Occurence of substring
+        var position = str.lastIndexOf('is');
+        console.log(position);
+
+        // Substring from a string
+        var substr = str.slice(1,9);
+        var substr = str.substring(1,9);
+        var substr = str.substr(1, 10);
+        console.log(substr);
+
+        var replaced = str.replace('string','Rehman');
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var newstring = str.concat('New String');
+        console.log(newstring);
+
+        var strwith = "           This   Is   Extra    Space.                ";
+        console.log(strwith);
+        console.log(strwith.trim());
+
+        var char2 = str.charAt(2);
+        var char2 = str.charCodeAt(2); // Not very important
+        console.log(char2)
+
+        console.log(str[2]);
+
+    </script>
+</body>
+
+</html>

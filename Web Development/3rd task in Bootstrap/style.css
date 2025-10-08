@@ -1,0 +1,36 @@
+.x {
+    padding-top: 63vh;
+    position: absolute;
+}
+.y {
+    position: absolute;
+}
+.z {
+    height: 5vh;
+    margin-top: 81vh; 
+    margin-left: 66vh;
+    position: absolute;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 30px;
+}
+ img .z{   
+    width: 12vh;
+    height: 9vh;
+}
+.container-fluid-bg{
+    background-image: url(./black-bg.svg);
+    background-size: cover;
+}
+ul li{
+    list-style: none;
+}
+.fa-telegram{
+    position: relative;
+    right: 50px;
+    top: 8px;
+}
+.icons i{
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+}

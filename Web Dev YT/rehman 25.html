@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox |www.rehman 25lec.flexbox.com</title>
+    <style>
+.container{
+    border: 3px solid black;
+    width: 70%;
+    height: 500px;
+    /* intialize the container as a flexbox */
+    display: flex;
+    /* flex properties for flex in container */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+     /* flex-flow: row-reverse wrap; */
+     /* justify-content: center; */
+     /* justify-content: space-between; */
+     /* justify-content: space-around; */
+     /* justify-content: space-evenly; */
+     /* align-items: center;
+     align-items: flex-end;
+     align-items: flex-start; */
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid rgb(141, 17, 179);
+    margin: 10px;
+    padding: 5px;
+}
+#item1{
+order: 2;
+}
+#item2{
+flex-grow: 2;
+/* flex-shrink: 2; */
+}
+#item3{
+order: 40;
+}
+#item4{
+/* flex-grow: 1; */
+/* when flex direction is set to row flex-basis: will control width */
+/* when flex direction is set to column flex-basis: will control height */
+flex-basis: 120px;
+/* flex-shrink: 1; */
+/* flex grow shrink basis         */
+/* flex: 2 2 300px; */
+/* align-self: flex-start ; */
+/* align-self: flex-end; */
+align-self: center;
+}
+    </style>
+</head>
+<body>
+    <h1>
+        This is Flexbox lecture.
+    </h1>
+    <div class="container">
+        <div class="item" id="item1">First Box</div>
+        <div class="item" id="item2">Second Box</div>
+        <div class="item" id="item3">Third Box</div>
+        <div class="item" id="item4">Fourth Box</div>
+        <!-- <div class="item" id="item5">Fifth Box</div>
+        <div class="item" id="item6">Six Box</div> -->
+    </div>
+</body>
+</html>

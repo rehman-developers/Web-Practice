@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .container {
+            border: 4px solid black;
+            background-color: rgb(10, 109, 155);
+            margin: 50px;
+        }
+
+        .items {
+            border: 5px solid blue;
+            /* margin: auto; */
+            margin: 50px 25px;
+            padding: 12px 6px;
+            background-color: rgb(33, 219, 233);
+        }
+
+        #fruits {
+            float: left;
+            width: 43%;
+        }
+
+        #Computer {
+            float: right;
+            width: 43%;
+        }
+
+        #Stationary {
+            clear: both;
+            /* clear: left; */
+            width: 96%;
+        }
+        p ,h2{
+            text-align: justify;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 >
+            Wellcome To My Store
+            
+        </h1>
+        <div id="fruits" class="items">
+            <h3>Fruits</h3>
+
+            <p id="fruits para" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nesciunt natus magni illo blanditiis numquam cupiditate obcaecati necessitatibus quos earum accusamus.
+            </p>
+        </div>
+        <div id="Computer" class="items">
+            <h3>Computer</h3>
+
+            <p id="Computer para" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Voluptates iste quae ducimus odit aliquam eos sequi laborum officiis commodi necessitatibus.
+            </p>
+        </div>
+        <div id="Stationary" class="items">
+            <h3>Stationary</h3>
+
+            <p id="Stationary para" class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Exercitationem atque doloribus libero mollitia laboriosam, Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Ut dolorum magni exercitationem voluptatum dolorem aperiam, mollitia deserunt neque
+                   consectetur consequatur nesciunt tenetur perferendis sit temporibus assumenda hic eos? Vero magni sunt
+                    suscipit minima. Et, aperiam.incidunt nesciunt facilis iure est magni.
+
+            </p>
+        </div>
+
+        <!-- </div> -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.bg {
+    background-color: blueviolet;
+    height: 50vh;
+}
+
+.btn {
+    margin: 100px;
+}
+
+.btn a {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.btn button {
+    padding: 15px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn input {
+    background-color: blueviolet;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background-color: blue;
+    color: white;
+}
+
+h2::after {
+    content: "Sahiwal";
+    color: blueviolet;
+    padding: 15px;
+    background-color: chocolate;
+}
+
+h2::before {
+    content: "Sahiwal";
+    color: blueviolet;
+    padding: 15px;
+    background-color: cadetblue;
+}

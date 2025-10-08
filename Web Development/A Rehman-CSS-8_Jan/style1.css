@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box {
+    height: 300px;
+    width: 320px;
+    background-color: brown;
+    padding: 22px;
+    /* float: right; */
+    box-shadow: 15px 14px 30px green;
+    overflow: auto;
+}
+.fa-square-facebook{
+    font-size: 40px;
+    color: blue;
+}
+.fa-whatsapp{
+    font-size: 40px;
+    color: green;
+    margin: 10px;
+}
+.text{
+    width: 500px;
+    background-color: green;
+    margin: 20px;
+    padding: 30px;
+    /* writing-mode: vertical-lr; */
+    /* text-orientation: upright; */
+}
+.text h1{
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgreen;
+}
+.text p{
+    /* text-align: center; */
+    /* text-align: end; */
+    text-align: justify;
+    text-indent: 250px;
+}

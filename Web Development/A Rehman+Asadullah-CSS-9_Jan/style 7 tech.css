@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+
+.bg{
+    background-color: orange;
+    height: 70vh;
+}
+
+
+
+
+.btn{
+    margin: 100px;
+}
+
+.btn a{
+    background-color: red;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.btn button{
+    background-color: blue;
+    color: white;
+    padding: 14px;
+    margin: 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn input{
+    background-color: orange;
+    color: white;
+    padding: 14px;
+    margin: 12px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn input:hover{
+    background-color: red;
+}
+
+.abc{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: 3s;
+}
+
+.abc:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+h2::before{
+    content: "Tech Step";
+    background-color: orange;
+    color: white;
+    padding: 14px;
+}
+
+h2::after{
+    content: "Tech Step";
+    background-color: orange;
+    color: white;
+    padding: 14px;
+}
+
+
+.zee{
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+}
+
+.zee2{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    position: absolute;
+    z-index: -1;
+}

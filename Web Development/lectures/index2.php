@@ -1,0 +1,1 @@
+<h1>Hi, EveryOne! I am index2.php file</h1>

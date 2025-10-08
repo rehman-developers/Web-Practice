@@ -1,0 +1,48 @@
+.fa-list-check {
+    font-size: 50px;
+}
+
+.fa-square-check {
+    font-size: 50px;
+}
+
+.fa-chart-column {
+    font-size: 50px;
+}
+
+.fa-cloud {
+    font-size: 50px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container-fluid-a .fa-check {
+    background-color: skyblue;
+    padding-top: 2px;
+    width: 32vh;
+    height: 4vh;
+}
+
+.container-fluid-a .fa-xmark {
+    background-color: pink;
+    padding-top: 2px;
+    width: 32vh;
+    height: 4vh;
+}
+
+.container-fluid-b button {
+    border-radius: 25px;
+}
+
+.section .col-4 {
+    border-left: 1px solid gray;
+}
+.section .row{
+    border-right: 1px solid gray;
+}
+
+.container-fluid-d .col {
+    border-right: 1px solid gray;
+}

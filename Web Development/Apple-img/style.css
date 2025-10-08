@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(56, 53, 53);
+    padding: 12px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 80px;
+    color: white;
+}
+
+.row {
+    background-color: rgb(184, 181, 181);
+    padding: 6px;
+}
+
+.row p {
+    text-align: center;
+}
+
+.row p span {
+    color: blue;
+}
+
+.abc {
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    text-align: center;
+}
+
+.abc a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.abc img {
+    width: 800px;
+    height: 300px;
+}
+
+.xyz {
+    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    text-align: center;
+    color: white;
+}
+
+.xyz a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.xyz img {
+    width: 600px;
+    height: 200px;
+}
+
+#box {
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    margin: 8px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+
+#box .ipad {
+    width: 115vh;
+    background-color: black;
+}
+
+#box .ipad a {
+    color: blue;
+    text-decoration: none;
+}
+
+#box .ipad img {
+    width: 500px;
+    height: 250px;
+}
+
+#box .watch {
+    margin-left: 8px;
+    width: 115vh;
+    background-color: black;
+}
+
+#box .watch h4 {
+    color: red;
+}
+
+#box .watch a {
+    color: blue;
+    text-decoration: none;
+}
+
+#box .watch img {
+    width: 500px;
+    height: 250px;
+}
+
+#apple {
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    margin: 8px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#apple .fitness {
+    width: 115vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#apple .fitness a {
+    color: blue;
+    text-decoration: none;
+}
+
+#apple .fitness img {
+    width: 500px;
+    height: 250px;
+}
+
+#apple .iphone {
+    margin-left: 8px;
+    width: 115vh;
+    background-color: skyblue;
+}
+
+#apple .iphone a {
+    color: blue;
+    text-decoration: none;
+}
+
+#apple .iphone img {
+    width: 500px;
+    height: 250px;
+}
+
+#last {
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    margin: 8px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#last .mac {
+    width: 110vh;
+}
+
+#last .mac img {
+    width: 625px;
+    height: 350px;
+}
+
+#last .letter {
+    width: 90vh;
+
+}
+
+#last .letter button {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#finish {
+    background-color: black;
+    height: 50vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    /* text-align: center; */
+}
+
+#finish .one {
+    width: 30vh;
+    height: 50vh;
+    margin: 55px;
+    /* background-color: white; */
+}
+
+#finish .one ul li {
+    list-style: none;
+    padding-bottom: 8px;
+    color: gray;
+}
+
+#finish .two {
+    width: 30vh;
+    height: 50vh;
+    margin: 55px;
+    /* background-color: white; */
+}
+
+#finish .two ul li {
+    list-style: none;
+    padding-bottom: 8px;
+    color: gray;
+}
+
+#finish .three {
+    width: 30vh;
+    height: 50vh;
+    margin: 55px;
+    /* background-color: white; */
+}
+
+#finish .three ul li {
+    list-style: none;
+    padding-bottom: 8px;
+    color: gray;
+}
+
+#finish .four {
+    width: 30vh;
+    height: 50vh;
+    margin: 55px;
+    /* background-color: white; */
+}
+
+#finish .four ul li {
+    list-style: none;
+    color: gray;
+    padding-bottom: 8px;
+}
+
+#finish .five {
+    width: 30vh;
+    height: 50vh;
+    margin: 55px;
+    /* background-color: white; */
+}
+#finish .five ul li{
+    list-style: none;
+    color: gray;
+    padding-bottom: 8px;
+}
+ .line{
+    background-color: black;
+    height: 20vh;
+    color: white;
+     padding: 90px;
+}

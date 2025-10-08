@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    /* position: fixed; */
+    /* position: absolute; */
+    background-color: orangered;
+}
+nav{
+    /* position: absolute; */
+    position: fixed;
+}
+ header p{
+    font-size: 14px;
+ }
+header i{
+    font-size: 17px;
+}
+.fa-magnifying-glass{
+    background-color: rgb(253, 187, 163);
+    position: absolute;
+    top: 4px;
+    right: 323px;
+    font-weight: 100;
+}
+ .fa-cart-shopping{
+    font-size: 25px;
+}
+main p{
+    font-size: 12px;
+} 
+.pink{
+    background-color: rgb(255, 231, 235);
+}

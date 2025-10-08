@@ -1,0 +1,13 @@
+.abc{
+    color: red;
+}
+
+h1{
+    /* background-color: aqua; */
+    color: orange;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
